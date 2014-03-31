@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LatvianJokes</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="sadness">Press\nFor\nSadness</string>
+    <string name="about_button">About Potato</string>
+    <string name="jokes">JokePage</string>
+    <string name="back">Restart Sadness</string>
+    <string name="about">Thank you for use Latvia app.\nNow we may afford two potato.\nBut unlikely. Two potato is impossible dream.</string>
+    <string name="aboutPage">About Page</string>
+    <string name="example">This is a sad joke example.</string>
+    <string name="next">More Sadness</string>
+    <string name="main">Begin Sadness</string>
+    <string name="politburo">This is Politburo\nWe have GPS.\nRemain place you are.\nWe arrive soon to take to gulag.</string>
+    <string name="fate">Such is life</string>
+
+</resources>
