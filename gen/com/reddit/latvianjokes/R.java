@@ -27,12 +27,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class id {
         public static final int about_button=0x7f070004;
         public static final int about_text=0x7f070000;
-        public static final int back_button=0x7f070005;
-        public static final int fate_button=0x7f070008;
+        public static final int back_button=0x7f070006;
+        public static final int fate_button=0x7f070009;
         public static final int fullscreen_content_controls=0x7f070001;
+        public static final int joke_text=0x7f070005;
         public static final int main_button=0x7f070002;
-        public static final int next_button=0x7f070006;
-        public static final int politburo_text=0x7f070007;
+        public static final int next_button=0x7f070007;
+        public static final int politburo_text=0x7f070008;
         public static final int start_button=0x7f070003;
     }
     public static final class layout {
@@ -120,7 +121,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:buttonBarButtonStyle
+          @attr name com.reddit.latvianjokes:buttonBarButtonStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarButtonStyle = 1;
         /**
@@ -130,7 +131,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:buttonBarStyle
+          @attr name com.reddit.latvianjokes:buttonBarStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarStyle = 0;
     };

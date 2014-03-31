@@ -4,6 +4,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
+
+import com.mongodb.DBObject;
+
+import cswagner.latvianjokes.Potato;
 
 
 public class Jokes extends Activity {
@@ -24,9 +29,13 @@ public class Jokes extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
 		setContentView(R.layout.activity_jokes);
-
+		
+		//DBObject joke = Potato.getPotato();
+		TextView tv = (TextView) this.findViewById(R.id.joke_text);
+		tv.setText("hello world");
+		//String title = joke.get("title").toString();
+		//tv.setText(title);
 	}
 
 
