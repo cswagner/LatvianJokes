@@ -50,8 +50,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int back=0x7f050006;
         public static final int dummy_button=0x7f050001;
         public static final int dummy_content=0x7f050002;
-        public static final int example=0x7f050009;
         public static final int fate=0x7f05000d;
+        public static final int jokeLoadMsg=0x7f050009;
         public static final int jokes=0x7f050005;
         public static final int main=0x7f05000b;
         public static final int next=0x7f05000a;

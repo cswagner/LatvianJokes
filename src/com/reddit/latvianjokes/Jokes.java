@@ -2,6 +2,7 @@ package com.reddit.latvianjokes;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -31,11 +32,19 @@ public class Jokes extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_jokes);
 		
-		//DBObject joke = Potato.getPotato();
-		TextView tv = (TextView) this.findViewById(R.id.joke_text);
-		tv.setText("hello world");
-		//String title = joke.get("title").toString();
-		//tv.setText(title);
+		final TextView tv = (TextView) this.findViewById(R.id.joke_text);
+		AsyncTask<Void, Void, DBObject> task = new AsyncTask<Void, Void, DBObject>() {
+			@Override
+			protected DBObject doInBackground(Void... arg0) {
+				return Potato.getPotato();				
+			}
+						
+			@Override
+			protected void onPostExecute(DBObject joke) {
+				tv.setText(joke.get("title").toString());
+			}
+		};
+		task.execute();
 	}
 
 

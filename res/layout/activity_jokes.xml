@@ -17,7 +17,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:text="@string/example"
+        android:text=""
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"

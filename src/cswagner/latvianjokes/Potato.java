@@ -28,6 +28,10 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 
 public final class Potato {	
+	public static int getInt() {
+		return 11;
+	}
+	
 	/* --------------------------------------------------
 	 * Method:		getPotato
 	 * Description: grabs a random Latvian joke from the
